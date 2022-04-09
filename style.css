@@ -1,0 +1,87 @@
+*{
+
+background: #e7edfb;
+}
+h1 , h3{
+  text-align: center;
+  justify-content: center;
+  margin-top: 10px;
+  color: #376e80;
+  font-size: 3rem;
+  font-family: 'Indie Flower', cursive;
+}
+
+
+
+.top {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.top p{
+  color: #376e80;
+  font-size: 1.2rem;
+  font-family: 'Indie Flower', cursive;}
+
+
+.top select {
+  margin-top: 12px;
+  height: 40px;
+  padding: 0.2rem;
+  width: 14%;
+  margin-left: 15px;
+  border: 2px #376e80 solid;
+  border-radius: 10px;
+  font-size: 1.2rem;
+
+  
+}
+.top select option {
+  color: black;
+  font-size: 1.2rem;
+  font-family: 'Indie Flower', cursive;}
+
+
+
+.paras .no1 , .no2 , .no3 {
+  text-align: center;
+  justify-content: center;
+  color: #376e80;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.4rem;
+}
+
+.paras .no1 input , .no2 input , .no3 input{
+  margin-left: 20px;
+  margin-top: 15px;
+  height: 35px;
+  padding: 0.2rem;
+  width: 14%;
+  margin-left: 15px;
+  border: 2px #376e80 solid;
+  border-radius: 10px;
+  font-size: 1.1rem;
+
+}
+
+button{
+  margin-top: 10px;
+  background: #376e80;
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+  justify-content: center;
+  width: 14%;
+  border: 2px #376e80 solid;
+  border-radius: 10px;
+  font-size: 1.7rem;
+  font-family: 'Indie Flower', cursive;
+  box-shadow: 2px 2px black;
+
+}
+
+#result {
+  margin-top: 40px;
+  font-size: 1.7rem;
+}

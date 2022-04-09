@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <h1>
+    Area Calcuter
+  </h1>
+  <div class="top">
+     <p>
+    Select Your Custom Sahpe:
+  </p>
+  <select class="seler">
+    <option value="-----">-----</option>
+    <option value="Triangle">Triangle</option>
+    <option value="Squar">Squar</option>
+    <option value="Rectangle">Rectangle</option>
+    <option value="Circle">Circle</option>
+  </select>
+  </div>
+  <h1 style="margin-top: 35px;">
+    Enter Your num in Cm
+  </h1>
+  <div class="paras">
+    <div style="display:flex" class="no1">
+      <p>First Number (a) :</p>
+      <input type="number" class="num1"  placeholder="First Number">
+      <p style="display: none;margin-left: 5px;" id="err1">a Not a number!</p>
+    </div>
+    <div  style="display:flex" class="no2">
+      <p>Second Number (a) :</p>
+      <input type="number" class="num2" placeholder="First Number">
+      <p style="display:none;margin-left: 5px" id="err2">b Not a number!</p>
+    </div>
+    <div style="display:flex" class="no3">
+      <p>Third Number (a) :</p>
+      <input type="number"class="num3"  placeholder="First Number">
+      <p style="display:none;margin-left: 5px" id="err3">c Not a number!</p>
+    </div>
+  </div>
+  <div style="text-align: center;">
+  <button class="calbtn">
+    Calculate! 
+  </button>
+  </div>
+  <h3 id="result" style="font-family: serif;"></h3>
+  <h3 id="wrong" style="font-family: serif; font-size: 1.7rem;"></h3>
+
+
+  <script src="./app.js"></script>
+</body>
+</html>
